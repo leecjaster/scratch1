@@ -12,7 +12,7 @@ function Todo({ todo, index, completeTodo, removeTodo }) {
       </div>
     </div>
   )
-}
+}  
 
 function TodoForm({ addTodo }) {
   const [value, setValue] = useState("");
